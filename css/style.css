@@ -1,0 +1,219 @@
+img{width: 50px;height:40px}
+
+.heroimage{
+ 
+  display:flex;
+  flex-direction: column;
+align-self:center;
+background-repeat: no-repeat;
+background-size: cover;
+  background-image: url("/UX_UI_HW_17/images/gradienthero.jpg");
+  width: 100%; 
+  height: 500px;
+}
+
+.content h1{
+  margin-top:120px;
+margin-left:130px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 20px;
+font-weight: bold;
+color:#ffffff;
+
+}
+
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
+}
+
+/* Global */
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+.button_1{
+  height:38px;
+  background:#1db9e8;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#ffffff;
+  margin-left: 130px;
+  cursor: pointer;
+
+}
+.button_1:hover{ 
+  background: #cccccc;
+  color: #ffffff;
+  
+}
+
+
+.dark{
+  padding:15px;
+  background:#35424a;
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+/* Header **/
+header{
+  background:#f4f4f4;
+  color:#f4f4f4;
+  padding-top:20px;
+  min-height:10px;
+  border-bottom:#1de8b5 3px solid;
+}
+
+header a{
+  color:#580dcf;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+
+
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  margin:0;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .highlight, header .current a{
+  color:#1db9e8;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+
+.cursor
+{
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background:#ffffff;
+  transition: 0.1s;
+  transform: translate(-50%,-50%);
+  pointer-events: none;
+  mix-blend-mode: difference;
+}
+
+.heroimage .content h1:hover ~ .cursor
+
+/* skills */
+
+
+
+
+/* case studies */
+
+section#casestudies {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  width:100%;
+  padding:50px;
+
+}
+
+/* footer */
+footer{
+  padding:20px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color:#1de8b5;
+  text-align: center;
+}
+
+section.fa {
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  width: 96.9%;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  height: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 60%;
+}
+.fa .fa-facebook:hover {
+  background: #567C9F;
+  color: white;
+}
+.fa .fa-instagram:hover {
+  background: #ad1662;
+  color: white;
+  }
+  .fa .fa-linkedin:hover {
+      background: #17317a;
+      color: white;
+  }
+  .fa .fa-behance:hover {
+      background: #ad1662;
+      color: white;
+  }
+.fa-facebook {
+  background: #AEAEAE;
+  color: white;
+  height: 20px;
+  width: 20px;
+}
+.fa-instagram {
+  background: #AEAEAE;
+  color: white;
+  height: 20px;
+  width: 20px;
+}
+.fa-linkedin {
+  background: #AEAEAE;
+  color: white;
+  height: 20px;
+  width: 20px;
+}
+.fa-behance {
+  background: #AEAEAE;
+  color: white;
+  height: 20px;
+  width: 20px;
+}
+
+
+
+  header{
+    padding-bottom:20px;
+  }
